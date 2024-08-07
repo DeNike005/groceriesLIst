@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+     background-color: black;
+}
+h1{
+    font-size: 50px;
+    color: purple;
+    text-align: center;
+    margin-top: 50px;
+}
+#cards{
+    height: 90px;
+    width: 180px;
+    background-color: purple;
+    font-size: 25px;
+    font-weight: 600;
+    margin-left: 300px;
+    margin-top: 60px;
+    color: black;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    border-top:5px solid rgb(197, 154, 197);
+    border-bottom: 5px solid rgb(197, 154, 197);
+    
+}
+button{
+    height: 70px;
+    width: 200px;
+    background-color: purple;
+    border-radius: 10px;
+    border: none;
+    font-size: 25px;
+    font-weight: 600;
+    color: black;
+    margin-top: 20px;
+    margin-left: 30px;
+    border-top:5px solid rgb(197, 154, 197);
+    border-bottom: 5px solid rgb(197, 154, 197);
+    
+}
+.result-cont{
+    width: 320px;
+    background-color: purple;
+    border-radius: 20px;
+    margin: 40px auto;
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 10px;
+    border-top:5px solid rgb(197, 154, 197) ;
+    border-bottom: 5px solid rgb(197, 154, 197) ;
+    display: none;
+    color: black;
+}
